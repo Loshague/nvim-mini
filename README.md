@@ -1,7 +1,7 @@
 # nvim-mini
 ## 下载命令
 ```sh
-  git clone https://github.com/Loshague/nvim-mini.git ~/.config/nvim
+git clone https://github.com/Loshague/nvim-mini.git ~/.config/nvim
 ```
 ## 操作
 - Tab
