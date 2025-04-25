@@ -1,6 +1,8 @@
 local opt = vim.opt
 vim.g.mapleader = ' '
 
+-- 切换全局工作目录
+vim.o.autochdir = true
 
 -- 将"寄存器关联到+上，这样复制等操作会直接放到系统粘贴板上
 opt.clipboard = "unnamed"
@@ -19,7 +21,7 @@ opt.conceallevel = 0          --  禁用文本隐藏（如 JSON 中的引号）
 opt.winwidth = 30             -- 设置当前窗口的宽度为 30 个字符
 opt.pumheight = 15            --  补全菜单最大高度为 15 行
 opt.list = true               --  显示不可见字符（如制表符、空格）
-opt.listchars = 'tab:»·,nbsp:+,trail:·,extends:→,precedes:←'  
+opt.listchars = 'tab:│·,nbsp:+,trail:·,extends:→,precedes:←'
                               --  自定义不可见字符的显示符号
 
 -- 编辑行为
